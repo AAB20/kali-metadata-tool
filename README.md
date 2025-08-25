@@ -24,13 +24,11 @@ A fast, scriptable CLI to extract **rich file metadata** on Kali Linux:
 - **Kali/Debian** packages:
   ```bash
   sudo apt update && sudo apt install exiftool -y
-
-
-# Clone
+## Clone
 git clone https://github.com/<your-username>/kali-metadata-tool.git
 cd kali-metadata-tool
 
-# Make executable
+## Make executable
 chmod +x metadata_tool.py
 
 # Single file → TXT to stdout
